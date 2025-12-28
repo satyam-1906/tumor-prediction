@@ -2,8 +2,11 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-
-
+st.set_page_config(
+    page_icon="🥼",
+    page_title="Thyroid Cancer Risk Prediction",
+    layout="wide"
+    )
 st.title("Thyroid Cancer Risk Prediction")
 st.write("Enter the following details to predict the risk of thyroid cancer:")
 age = st.number_input("Age", min_value=0, max_value=120, value=30)
