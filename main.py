@@ -78,5 +78,4 @@ if st.button("Predict Risk"):
     else:
         st.success("Low risk of thyroid cancer detected.")
 
-st.write("Thank you for using the Thyroid Cancer Risk Prediction tool.")
 st.write("Disclaimer: This tool is for informational purposes only and is not a substitute for professional medical advice.")   
