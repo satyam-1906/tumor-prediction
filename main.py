@@ -5,7 +5,6 @@ import pickle
 st.set_page_config(
     page_icon="🥼",
     page_title="Thyroid Cancer Risk Prediction",
-    layout="wide"
     )
 st.title("Thyroid Cancer Risk Prediction")
 st.write("Enter the following details to predict the risk of thyroid cancer:")
